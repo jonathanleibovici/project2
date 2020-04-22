@@ -1,0 +1,20 @@
+.jumbotron{
+    
+    
+   /* background-image: url(../images/mc.jpg);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size:contain,cover;
+}
+
+body{
+    background-color: black;
+}
+@media all and (max-width: 768px) {
+    #target-container {
+        flex-flow: row !important;
+        align-items: center!important;
+    }
+}
+
